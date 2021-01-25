@@ -13,7 +13,7 @@
 <body>
   <header>
     <div class="container">
-      <img src="" alt="spotify">
+      <img src="img/1280px-Spotify_logo_with_text.svg.png" alt="spotify">
     </div>
   </header>
   <main>

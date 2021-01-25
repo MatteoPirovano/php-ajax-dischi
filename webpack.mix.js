@@ -1,3 +1,4 @@
 let mix = require('laravel-mix');
-mix.sass('src/app.scss', 'css');
- 
+mix
+.js('src/app.js', 'js').vue({ version: 2 })
+.sass('src/app.scss', 'css');

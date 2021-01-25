@@ -1,5 +1,5 @@
 <?php
-  "Albums": [
+  $Albums = [
     [
       "poster" => "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
       "title" => "New Jersey",
@@ -70,5 +70,7 @@
       "genre" => "Pop",
       "year" => "1987"
     ]
-  ]
+  ];
+  header('Content-Type: applications/json');
+  echo json_encode($Albums);
 ?>

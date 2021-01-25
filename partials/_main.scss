@@ -1,0 +1,23 @@
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $colorBackground;
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .disc {
+      min-width: 150px;
+      text-align: center;
+      background-color: $colorBlack;
+      color: $colorWhite;
+      padding: 0 20px;
+      img {
+        width: 150px;
+      }
+    }
+  }
+}
